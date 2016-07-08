@@ -1,0 +1,6 @@
+
+To play Dwarf Fortress please run the follwing steps in you terminal:
+
+docker run thomass/dwarf-fortress get-start-script > start.sh
+chmod u+x start.sh
+./start.sh
