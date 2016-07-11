@@ -65,8 +65,8 @@ RUN sed -i \
 		/df_init/init.txt
 
 RUN sed -i \
-    '/\[BUTTON:0:5\]/a [SYM:2:Plus]' \
-    '/\[BUTTON:0:4\]/a [SYM:2:Minus]' \
+    -e '/\[BUTTON:0:5\]/a [SYM:2:Plus]' \
+    -e '/\[BUTTON:0:4\]/a [SYM:2:Minus]' \
     /df_init/interface.txt
 
 RUN chown -R 1000:1000 /df_linux
