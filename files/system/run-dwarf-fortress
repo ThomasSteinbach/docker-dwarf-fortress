@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [[ ! -f /df_linux/data/init/init.txt ]]; then
+  cp /df_init/* /df_linux/data/init/
+fi
+
+exec /df_linux/df
