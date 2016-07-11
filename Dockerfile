@@ -64,6 +64,11 @@ RUN sed -i \
     -e 's/\[TEXTURE_PARAM:LINEAR\]/[TEXTURE_PARAM:NEAREST]/' \
 		/df_init/init.txt
 
+RUN sed -i \
+    '/\[BUTTON:0:5\]/a [SYM:2:Plus]' \
+    '/\[BUTTON:0:4\]/a [SYM:2:Minus]' \
+    /df_init/interface.txt
+
 RUN chown -R 1000:1000 /df_linux
 
 CMD ["cat", "/root/docs.txt"]
