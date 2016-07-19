@@ -11,4 +11,4 @@ The default installation is altered by following modifications:
 
 Run `docker run thomass/dwarf-fortress` and follow the instructions.
 
-By default savegames and movies are stored under "$HOME/dwarf-fortress"
+By default config, savegames and movies are stored under "$HOME/dwarf-fortress"
