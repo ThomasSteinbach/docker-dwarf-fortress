@@ -5,8 +5,7 @@ This will run [Dwarf Fortress](http://www.bay12games.com/dwarves/) inside a Dock
 The default installation is altered by following modifications:
 
 - it uses the [Ironhand upgrade package for 0.43.05](http://dffd.bay12games.com/file.php?id=11349) graphics set
-- it uses print mode VBO for maximum rendering speed
-- set FPS_CAP to 20 to allow a slower, more 'realistic' simulation
+- set FPS_CAP to 30 to allow a slower, more 'realistic' simulation
 
 ## usage
 
