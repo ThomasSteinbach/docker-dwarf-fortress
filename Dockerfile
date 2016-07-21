@@ -15,6 +15,7 @@ RUN sed -i \
 		-e 's/\[INTRO:YES\]/[INTRO:NO]/' \
 		-e 's/\[SOUND:YES\]/[SOUND:NO]/' \
 		-e 's/\[PRINT_MODE:2D\]/[PRINT_MODE:VBO]/' \
+		-e 's/\[FPS_CAP:100\]/[FPS_CAP:20]/' \
 		/df_init/init.txt
 
 # add short cut for zoom in (Strg +) and zoom out (Strg -)

@@ -6,6 +6,7 @@ The default installation is altered by following modifications:
 
 - it uses the [Ironhand upgrade package for 0.43.05](http://dffd.bay12games.com/file.php?id=11349) graphics set
 - it uses print mode VBO for maximum rendering speed
+- set FPS_CAP to 20 to allow a slower, more 'realistic' simulation
 
 ## usage
 
@@ -16,3 +17,7 @@ By default config, savegames and movies are stored under "$HOME/dwarf-fortress"
 # drawbacks
 
 Because of the graphics set in combination with VBO rendering punctuation characters are not displayed properly.
+
+## troubleshooting
+
+By complications with you current game on updating the image, please update your start.sh or/and rename your $HOME/dwarf-fortress/init folder.
